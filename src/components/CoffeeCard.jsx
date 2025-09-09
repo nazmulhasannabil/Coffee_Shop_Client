@@ -68,7 +68,7 @@ const CoffeeCard = ({ coffee, coffees, setCoffees }) => {
         </Link>
         <button
           onClick={() => handleDelete(_id)}
-          className="btn btn-sm btn-outline btn-error bg-red-600 text-white">
+          className="btn btn-sm btn-outline btn-error">
           🗑
         </button>
       </div>
