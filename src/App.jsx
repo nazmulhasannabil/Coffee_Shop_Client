@@ -5,8 +5,7 @@ import { Link, useLoaderData } from 'react-router-dom'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Category from './components/Category'
-import Footer from './components/Footer'
-import Social from './components/Social'
+
 import { BiCoffee } from 'react-icons/bi'
 import { useState } from 'react'
 
@@ -17,7 +16,6 @@ function App() {
 
   return (
     <>
-      <Header />
       <Hero />
       <Category />
       <h1 className='pt-10 text-gray-700 text-center'>--- Sip & Savor ---</h1>
@@ -41,8 +39,7 @@ function App() {
             </CoffeeCard>)
         }
       </div>
-      <Social />
-      <Footer />
+      
 
     </>
   )
