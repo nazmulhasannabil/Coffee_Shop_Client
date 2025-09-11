@@ -17,7 +17,7 @@ const CoffeeCard = ({ coffee, coffees, setCoffees }) => {
     }).then((result) => {
       if (result.isConfirmed) {
 
-        fetch(`http://localhost:5000/coffee/${_id}`, {
+        fetch(`https://coffee-shop-server-5wsk.onrender.com/coffee/${_id}`, {
           method: 'DELETE'
         })
           .then(res => res.json())

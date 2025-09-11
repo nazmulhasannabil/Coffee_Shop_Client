@@ -22,7 +22,7 @@ export default function SignUp() {
                 const cratedAt= result?.user?.metadata?.creationTime;
 
                 //send new user to the database
-                fetch('http://localhost:5000/users', {
+                fetch('https://coffee-shop-server-5wsk.onrender.com/users', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'

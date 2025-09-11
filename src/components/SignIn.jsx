@@ -18,7 +18,7 @@ export default function SignIn() {
                 const lastSignInTime = result?.user?.metadata?.lastSignInTime;
 
                 //update new user with last
-                fetch('http://localhost:5000/users', {
+                fetch('https://coffee-shop-server-5wsk.onrender.com/users', {
                     method: 'PATCH',
                     headers: {
                         'Content-Type': 'application/json'
