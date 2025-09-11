@@ -17,7 +17,7 @@ const Header = () => {
       {/* Center: Logo + Title */}
       <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center gap-3">
         <img src={logo} alt="Logo" className="w-16 h-16" />
-        <h1 className="text-4xl font-rancho text-white">Espresso Emporium</h1>
+        <h1 className="text-4xl font-rancho text-white">Sip & Savor</h1>
       </div>
 
       {/* Right: Login Icon */}
